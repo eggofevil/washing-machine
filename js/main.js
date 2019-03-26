@@ -20,7 +20,7 @@
   linnen.addEventListener('click', function () {
     if (doorOpened) {
       if (!linnenLoaded) {
-        linnen.style.transform = 'translate(-220px, -250px)';
+        linnen.style.transform = 'translate(-250px, -250px)';
         linnenLoaded = true;
       } else {
         linnen.style.transform = '';
@@ -38,7 +38,7 @@
   function rotate () {
     console.log(counter);
     var deg = counter * 359;
-    linnen.style.transform = 'translate(-220px, -250px) rotate(' + deg + 'deg)';
+    linnen.style.transform = 'translate(-250px, -250px) rotate(' + deg + 'deg)';
     counter++;
     if (counter < 25) {
       setTimeout(rotate, 550);

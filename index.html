@@ -12,16 +12,18 @@
     <input id="door-trigger" type="checkbox" class="door-trigger">door-trigger
     <input id="d39-trigger" type="checkbox" class="linnen-trigger">linnen-trigger
     -->
-    <div class="washing-machine">
-      <button class="washing-machine__start-btn" type="button">START</button>
-      <div class="washing-machine__cuff">
-        <div class="washing-machine__barrel"></div>
+    <main class="main">
+      <div class="washing-machine">
+        <button class="washing-machine__start-btn" type="button">START</button>
+        <div class="washing-machine__cuff">
+          <div class="washing-machine__barrel"></div>
+        </div>
+        <div for="door-trigger" class="washing-machine__door">
+          <div class="door__inner-frame"></div>
+        </div>
       </div>
-      <div for="door-trigger" class="washing-machine__door">
-        <div class="door__inner-frame"></div>
-      </div>
-    </div>
-    <div for="d39-trigger" class="linnen"></div>
+      <div for="d39-trigger" class="linnen"></div>
+    </main>
     <script src="js/main.js"></script>
   </body>
 </html>
